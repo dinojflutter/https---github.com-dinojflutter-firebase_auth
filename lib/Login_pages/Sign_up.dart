@@ -1,3 +1,5 @@
+import 'package:firebase_1/Homepage/Home_page.dart';
+import 'package:firebase_1/UI/Auth/Login_Page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:flutter/material.dart';
@@ -115,7 +117,7 @@ class _SignuppageState extends State<Signuppage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const Signuppage()));
+                            builder: (context) => const Homepage()));
                   },
                   child: const Text(
                     "Login",
